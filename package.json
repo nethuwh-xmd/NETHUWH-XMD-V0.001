@@ -1,14 +1,14 @@
 
 
 {
-  "name": "lite-xd",
+  "name": "NETHUWH-XMD",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By nethum aksh",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name lite",
-    "stop": "pm2 stop lite",
-    "restart": "pm2 restart lite"
+    "start": "pm2 start index.js --deep-monitoring --attach --name xmd",
+    "stop": "pm2 stop xmd",
+    "restart": "pm2 restart xmd"
   },
   "dependencies": {
        "@whiskeysockets/baileys": "npm:baileys-pro@latest",
