@@ -1,6 +1,6 @@
-name: lite-xd
+name: NETHUWH-XME
 services:
-  - name: lite-xd-service
+  - name: nethuwh-xmd-service
     type: web
     ports:
       - 5000
