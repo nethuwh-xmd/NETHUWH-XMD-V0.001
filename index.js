@@ -1,4 +1,4 @@
-const {
+iconst {
   default: makeWASocket,
   useMultiFileAuthState,
   DisconnectReason,
@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("NETHUWH~", '')
+  const sessdata = config.SESSION_ID.replace("ZORA~HMMg3B7Q#vG6LcUcwLbUhMrm5aX7jD8dCUKEv0Ndytp7ks4_N6nM", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
